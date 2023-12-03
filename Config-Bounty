@@ -1,3 +1,7 @@
+------------------// Welcome to night hub bounty hunting \\------------------------
+-------------------// There is version beta if got bug error wait me fix okay! \\------------------------------
+---------------------// Create By LMNGAMING | Dev : Jacker, I Am So Sad \\-----------------------------------
+
 getgenv().Setting = {
     ["Hunt"] = {
         ["Team"] = "Pirates" --// Work \\--------
