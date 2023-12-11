@@ -4,14 +4,14 @@
 
 getgenv().Setting = {
     ["Hunt"] = {
-        ["Team"] = "Pirates" --// Work \\--------
+        ["Team"] = "Pirates"
     },
     ["Webhook"] = {
         ["Enable"] = true,
-        ["Url"] = "" ---// Not Work \\----------------
+        ["Url"] = "" --// Your Url \\------------
     },
     ["Skip"] = {
-        ["V4"] = false,
+        ["V4"] = true,
         ["Fruit"] = {
             "Portal-Portal",
             "Mammoth-Mammoth",
@@ -21,18 +21,15 @@ getgenv().Setting = {
     },
     ["Chat"] = {
         ["Enable"] = true,
-        ["Content"] = "I Got Night Hub Bounty Hunting Script"
+        ["Content"] = "Night Hub Best Free Script"
     },
     ["Misc"] = {
-        ["Hold Until Max Skill Preserve"] = false,
-        ["Tweening On HoldTime"] = false,
-
         ["Silent Mode"] = true,
         ["Hide If Low Health"] = true,
-        ["Low Health | Max Health"] = {3000, 4000},
+        ["Hiding Health"] = {3000, 4000},
         ["V4"] = true,
         ["LockCamera"] = true,
-        ["FPSBoost"] = false,
+        ["FPSBoost"] = true,
         ["WhiteScreen"] = false,
         ["BypassTP"] = true,
         ["TweenSpeed"] = 350,
@@ -54,10 +51,10 @@ getgenv().Setting = {
             ["Delay"] = 0,
             ["Skills"] = {
                 ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
-                ["X"] = {["Enable"] = false, ["HoldTime"] = 0},
+                ["X"] = {["Enable"] = true, ["HoldTime"] = 0},
                 ["C"] = {["Enable"] = false, ["HoldTime"] = 0},
                 ["V"] = {["Enable"] = false, ["HoldTime"] = 0},
-                ["F"] = {["Enable"] = false, ["HoldTime"] = 0}
+                ["F"] = {["Enable"] = true, ["HoldTime"] = 0}
             }
         },
         ["Sword"] = {
@@ -70,12 +67,13 @@ getgenv().Setting = {
         },
         ["Gun"] = {
             ["Enable"] = true,
-            ["Delay"] = .0,
+            ["Delay"] = 0,
             ["Skills"] = {
                 ["Z"] = {["Enable"] = true, ["HoldTime"] = 0},
-                ["X"] = {["Enable"] = true, ["HoldTime"] = 0}
+                ["X"] = {["Enable"] = false, ["HoldTime"] = 0}
             }
         }
     }
 }
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NIGHTHUBONTOP/Main/main/AutoBounty.lua"))()
